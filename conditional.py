@@ -1,9 +1,9 @@
 a=int(input("Enter a:"))
 b=int(input("Enter b:"))
-if b>a:
-    print("b is greater than a")
-elif a==b:
-    print("a and b are equal")
+c=int(input("Enter c:"))
+if b>a and b>c:
+    print("b is the largest")
+elif a>b and a>c:
+    print("a is the largest")
 else:
-    print("a is greater than b")
-    
+    print("c is the largest")
